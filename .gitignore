@@ -1,0 +1,52 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.swp
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/build/
+
+## Publish output
+publish/
+PublishProfiles/
+
+## Visual Studio / Rider
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Secrets - never commit these
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+secrets.json
